@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server:{
     proxy:{
-      "/api":"http://localhost:3000"
+      "/api":"https://fullstack-deployment-six.vercel.app/"
     }
   }
 })
