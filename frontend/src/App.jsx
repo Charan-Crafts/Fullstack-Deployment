@@ -5,7 +5,7 @@ const App = () => {
 
   const getJokes = async () => {
 
-    const response = await axios.get("https://fullstack-deployment-six.vercel.app/api/jokes")
+    const response = await axios.get("https://fullstack-deployment-tz8c.onrender.com/api/jokes")
 
     console.log(response.data);
 
