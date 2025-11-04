@@ -9,7 +9,7 @@ const cors = require('cors')
 
 app.use(cors(
      {
-         origin: ['https://fullstack-deployment-six.vercel.app/']
+         origin: ['https://fullstack-deployment-six.vercel.app']
      }
 ))
 app.get("/api/jokes", (req, res) => {
